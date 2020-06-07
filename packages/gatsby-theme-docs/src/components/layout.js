@@ -1,12 +1,18 @@
-import React from 'react'
+/** @jsx jsx */
+import {Fragment} from 'react'
+import {jsx} from 'theme-ui'
+
 const Layout = ({children}) => (
-    <React.Fragment>
-        <header>Gatsby Theme Docs</header>
-        <main>
+    <Fragment>
+        <header
+            sx={{bg: 'primary', color: 'background', fontFamily:'heading', p: 3}}
+        >Gatsby Theme Docs</header>
+        <main
+            sx={{mx: 'auto', maxWidth: 650, width: '90vw'}}
+        >
             {children}
         </main>
-
-    </React.Fragment>
+    </Fragment>
 )
 
 export default Layout
