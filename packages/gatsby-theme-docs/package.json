@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "gatsby-source-filesystem": "^2.3.10",
     "mkdirp": "^1.0.4"
   }
 }
