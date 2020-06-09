@@ -1,5 +1,9 @@
 // Gatsby Config commented out for the start branch
 // Jason adds this later in the course
+module.exports = {
+    plugins: ['gatsby-plugin-theme-ui']
+}
+
 //
 // require('dotenv').config({
 //   path: `.env.${process.env.NODE_ENV}`,
