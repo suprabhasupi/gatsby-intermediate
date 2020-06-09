@@ -35,7 +35,7 @@ const Layout = ({children}) => (
             </Link>
          </header>
 
-         <main sx={{my: 4, max: 'auto', maxWidth: 650, width: '90vw'}}>     
+         <main sx={{my: 4, margin: 'auto', maxWidth: 650, width: '90vw'}}>     
             {children}
          </main>
     </Fragment>
