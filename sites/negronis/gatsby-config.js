@@ -23,7 +23,14 @@ module.exports = {
                 apiSecret: process.env.CLOUDINARY_API_SECRET,
                 uploadFolder: 'fem-workshop',
             },
-        }
+        },
+        {
+            resolve: 'gatsby-theme-docs',
+            options: {
+            basePath: '/recipes',
+            contentPath: 'content/recipes',
+            },
+        },
     ]
 }
 
