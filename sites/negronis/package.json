@@ -8,6 +8,7 @@
     "develop": "gatsby develop"
   },
   "dependencies": {
+    "@jlengstorf/gatsby-theme-events": "^1.0.1",
     "@theme-ui/presets": "^0.3.0",
     "gatsby": "^2.15.28",
     "gatsby-image": "^2.4.6",
